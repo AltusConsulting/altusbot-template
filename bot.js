@@ -103,10 +103,6 @@ bot.commons["platform"] = process.env.platform;
 bot.commons["nickname"] = process.env.BOT_NICKNAME || "unknown";
 bot.commons["code"] = process.env.code;
 
-// var appdController = AppD.notifications({
-//     account: process.env.APPD_ACCOUNT,
-//     storage: controller.storage
-// });
 
 // Start Bot API
 controller.setupWebserver(process.env.PORT || 3000, function(err, webserver) {
