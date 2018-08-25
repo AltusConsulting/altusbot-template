@@ -1,0 +1,31 @@
+{
+    "scripts": {
+        "start": "node bot.js"
+    },
+    "name": "altusbot-template",
+    "description": "Template for bot creation using BotKit",
+    "version": "0.0.1",
+    "main": "bot.js",
+    "keywords": [
+        "ciscospark",
+        "webex",
+        "botkit",
+        "devnet"
+    ],
+    "author": "Rafael Campos (Altus Consulting) <rcampos@altus.cr>",
+    "license": "MIT",
+    "dependencies": {
+        "botkit": "0.5.7",
+        "botkit-storage-redis": "^1.1.0",
+        "engines": {
+            "node": "8.2.1"
+        },
+        "node-env-file": "0.1.8",
+        "request": "^2.87.0",
+        "string-format": "^2.0.0"
+    },
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-develop-server": "^0.5.2"
+    }
+}
